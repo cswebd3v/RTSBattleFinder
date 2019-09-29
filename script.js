@@ -33,8 +33,8 @@ function displayResults() {
   //for loop to create the proper number of <li>
   for (let i=0; i < gameDeets.length; i++){
     $('#results-list').append(
-      `<li><h3>${gameDeets[i].name} - 
-      ${gameDeets[i].playercount} active players</h3</li>`
+      `<li><h3>${gameDeets[i].name}<span class="blue">
+      ${gameDeets[i].playercount} players</span></h3</li>`
     );
   }
 }

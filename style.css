@@ -5,18 +5,20 @@ html, body {
     height: 100%;
   }
   
-  h1 {
+  h1, h4 {
     font-family: 'Luckiest Guy', cursive;
     text-align: center;
-    color: white;
   }
+
+
   
   body {
     font-family: 'Tinos', serif;
   }
   
   .results {
-    width: 75%
+    width: 75%;
+    margin: 0 auto;
   }
   
   .container {
@@ -24,12 +26,55 @@ html, body {
     margin: 0 auto;
     background-color: #101010;
     width: 75%;
-    height: 90%;
+    height: 95%;
     padding: 20px;
   }
   
+
+  ul {
+    list-style-image: url(flag.png);
+    width: 70%;
+    margin: auto;
+  }
+
   li {
     margin-top: 20px;
+    width: 100%
+  }
+
+  .blue {
+    color: #009fc7;
+    float: right;
+  }
+
+  .gray {
+    color: #BDBDBD;
+  }
+
+  .white {
+    color: white;
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #009fc7;
   }
   
   
