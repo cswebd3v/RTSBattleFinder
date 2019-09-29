@@ -1,0 +1,36 @@
+html, body {
+    background-color: black;
+    color: lightgray;
+    width: 100%;
+    height: 100%;
+  }
+  
+  h1 {
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    color: white;
+  }
+  
+  body {
+    font-family: 'Tinos', serif;
+  }
+  
+  .results {
+    width: 75%
+  }
+  
+  .container {
+    display: block;
+    margin: 0 auto;
+    background-color: #101010;
+    width: 75%;
+    height: 90%;
+    padding: 20px;
+  }
+  
+  li {
+    margin-top: 20px;
+  }
+  
+  
+  
