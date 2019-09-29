@@ -10,6 +10,14 @@ html, body {
     text-align: center;
   }
 
+  a {
+    text-decoration: none;
+  }
+
+  a:link {
+    color: #009fc7;
+  }
+
 
   
   body {
@@ -39,7 +47,8 @@ html, body {
 
   li {
     margin-top: 20px;
-    width: 100%
+    width: 100%;
+    color: white;
   }
 
   .blue {
@@ -78,4 +87,18 @@ html, body {
   }
   
   
+  .toabout {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .story {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 18px;
+  }
   
+  .story > p {
+    line-height: 2;
+  }
