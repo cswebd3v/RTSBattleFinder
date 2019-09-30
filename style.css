@@ -1,3 +1,14 @@
+/*CSS Reset*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
 html, body {
     background-color: black;
     color: lightgray;
@@ -6,8 +17,13 @@ html, body {
   }
   
   h1, h4 {
-    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Teko', sans-serif;
     text-align: center;
+  }
+
+  .subheader {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
   }
 
   a {
@@ -21,7 +37,7 @@ html, body {
 
   
   body {
-    font-family: 'Tinos', serif;
+    font-family: 'Comfortaa', cursive;
   }
   
   .results {
@@ -67,6 +83,7 @@ html, body {
   button {
     display: block;
     margin: 0 auto;
+    margin-top: 10px;
 
     -moz-appearance: none;
     -webkit-appearance: none;
