@@ -119,3 +119,49 @@ html, body {
   .story > p {
     line-height: 2;
   }
+
+  /* Mobile Styles */
+  @media screen and (max-width: 1000px) {
+    body {
+      font-size: 0.75rem;
+    }
+
+    .container {
+      height: 200%;
+      width: 95%
+    }
+
+    button {
+      font-size: 0.75rem;
+    }
+
+    .refresh {
+      margin-top: 30px;
+    }
+
+    .story {
+      font-size: 0.75rem;
+      margin-top: 15px;
+      width: 85%;
+    }
+
+  }
+
+  @media screen and (max-width: 800px) {
+    .container {
+      height: 100%;
+    }
+  }
+
+
+  @media screen and (max-height: 850px) {
+    .container {
+      height: 170%;
+    }
+  }
+/* iphone 5 */
+  @media screen and (max-height: 600px) {
+    .container {
+      height: 200%;
+    }
+  }
