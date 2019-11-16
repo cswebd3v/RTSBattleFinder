@@ -4,7 +4,7 @@
 let games = {
   221380: 'Age of Empires 2 (2013)',
   1017900: 'Age of Empires: Definitive Edition',
-  //813780: 'Age of Empires 2: Definitive Edition',
+  813780: 'Age of Empires 2: Definitive Edition',
   459220: 'Halo Wars Definitive Edition',
   105450: 'Age of Empires 3',
   281610: 'Homeworld: Deserts of Kharak',
